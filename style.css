@@ -36,7 +36,21 @@ p {
   border: 5px solid #efb0c9;
 }
 .gift-item {
-  width: 80%;
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmp5ZWsxN3FlajZhNXI2emFrdGlpcjd5anEyN3NnNXRhMWUzNmp6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26u49YjOazMMAwTGU/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
   border: 3px solid whitesmoke;
   border-radius: 8px;
+  height: 400px;
+  margin: 0 auto;
+}
+.gift-section {
+  margin-top: 20px;
+}
+.gift-title {
+  margin-bottom: 5px;
+}
+.gift-hover {
+  margin: 0px 0px 5px 0px;
 }
