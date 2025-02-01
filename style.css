@@ -1,5 +1,5 @@
 body {
-  background-color: #a2d2ff;
+  background-image: linear-gradient(whitesmoke rgb(240, 180, 190));
   text-align: center;
   font-family: Happy Monkey, cursive;
   color: whitesmoke;
@@ -14,7 +14,8 @@ h2,
 h3 {
   text-shadow: 0px 0px 3px black;
 }
-p {
+#age,
+#date {
   background-color: #efb0c9;
 }
 .age-date {
@@ -45,6 +46,18 @@ p {
   height: 400px;
   margin: 0 auto;
 }
+.aisha-parent-img {
+  background-image: url(32.jpeg);
+  background-size: cover;
+  width: 400px;
+  border: 3px solid whitesmoke;
+  border-radius: 8px;
+  height: 400px;
+  margin: 0 auto;
+}
+#gift-item-suprise:hover {
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDYxeGprMHdrcnA1cmJ4anFsYjBlbno4NHh3NW05NG42ZWZqNjkweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2Stxs72oZM0kjb91rU/giphy.gif");
+}
 .gift-section {
   margin-top: 20px;
 }
@@ -53,4 +66,21 @@ p {
 }
 .gift-hover {
   margin: 0px 0px 5px 0px;
+}
+#aisha-parent-img-thanks:hover {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnI0Zjc2M3BmNWx0b3FnaWc3NDMyOXNwMXAxd2hzNGtnNzB4bWw1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j6TJDX7HfNdm6fyzHi/giphy.gif");
+}
+footer {
+  font-size: 10px;
+  font-style: italic;
+}
+.footer-title {
+  margin-bottom: 0px;
+}
+.footer-advice {
+  margin-top: 0px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
