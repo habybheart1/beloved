@@ -79,6 +79,14 @@ footer {
   font-size: 10px;
   font-style: italic;
 }
+.contact-details {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  color: burlywood;
+  font-weight: bolder;
+}
 .footer-title {
   margin-bottom: 0px;
 }

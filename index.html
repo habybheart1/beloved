@@ -30,6 +30,7 @@
       <h4>MY PARENT'S PICTURE</h4>
       <div class="aisha-parent-img" id="aisha-parent-img-thanks"></div>
       <footer>
+        <button class="contact-details">DROP YOUR CONTACT DETAILS</button>
         <p class="footer-title">
           Want to create your own birthday invitation site?
         </p>
@@ -41,13 +42,19 @@
       </footer>
     </div>
     <script>
-      alert("Will you be attending my birthday party?");
-      let attendance = prompt("YES or NO");
-      if (attendance == "YES") {
-        alert("Would be expecting you 😃");
-      } else {
-        alert("THANKS, BYE");
+      function contactDetails() {
+        let firstName = prompt("Enter your first name");
+        alert("Will you be attending my birthday party?");
+        let attendance = prompt("YES or NO");
+        if (attendance === "YES") {
+          let h1 = document.querySelector("h1");
+          h1.innerHTML = "Would be expecting " + firstName + " 😃";
+        } else {
+          alert(firstName + " We will miss you");
+        }
       }
+      let contactButton = document.querySelector(".contact-details");
+      contactButton.addEventListener("click", contactDetails);
     </script>
   </body>
 </html>
